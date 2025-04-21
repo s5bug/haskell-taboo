@@ -1,0 +1,15 @@
+[package]
+name = "haskell-taboo"
+version = "0.1.0"
+edition = "2024"
+
+[build-dependencies]
+cc="*"
+
+[dependencies]
+clap = { version = "4.5.37", features = ["derive"] }
+wild = "2.2.1"
+memmap2 = "0.9.5"
+tree-sitter = "0.25.3"
+tree-sitter-haskell = "0.23.1"
+colored = "3.0.0"
