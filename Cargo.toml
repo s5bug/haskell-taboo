@@ -7,6 +7,7 @@ edition = "2024"
 cc="*"
 
 [dependencies]
+anyhow = "1.0.98"
 clap = { version = "4.5.37", features = ["derive"] }
 wild = "2.2.1"
 memmap2 = "0.9.5"
